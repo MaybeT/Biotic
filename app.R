@@ -8,6 +8,18 @@
 #
 
 library(shiny)
+library(readr)
+library(shiny)
+library(shinydashboard)
+library(shinyWidgets)
+library(shinythemes)
+library(DT)
+library(tools)
+library(tidyverse)
+
+data15 <- readRDS("all_CT_and_weather_SH_join.RDS")
+datacal <- readRDS("Total_DH_and_yield.RDS")
+datadaily <- readRDS("daily_stress.RDS")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
