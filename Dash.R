@@ -26,7 +26,7 @@ ui <- dashboardPage(
       sidebarMenu(
         menuItem("Landing", tabName = "Landing", icon = icon("paper-plane")),
         menuItem("15min", tabName = "first", icon = icon("dashboard")),
-        menuItem("summ_daily", tabName = "second", icon = icon("gem")),
+        menuItem("summ_daily", tabName = "second", icon = icon("th")),
         menuItem("summ_yield", tabName = "yield", icon = icon("chart-bar"))
       )
     ),
