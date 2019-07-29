@@ -30,17 +30,18 @@ ui <- dashboardPage(
         menuItem("summ_yield", tabName = "yield", icon = icon("chart-bar"))
       )
     ),
-    dashboardBody(
-      #load tab items frmo the menuitem
-      (tabItems(tabItem(tabName  = "first",
+  dashboardBody(
+    #load tab items frmo the menuitem
+    (tabItems(tabItem(tabName  = "first",
                       h2("Select Data to View")
-                      ),
-        tabItem(tabName = "15 minute Canopy Temperature",
-                h2("second tab content")
-                )
-              )
-             )
+    ),
+    tabItem(tabName = "15 minute Canopy Temperature",
+            h2("second tab content")
     )
+    )
+    )
+    
+  )
       
       # Boxes need to be put in a row (or column)
       #fluidRow(
